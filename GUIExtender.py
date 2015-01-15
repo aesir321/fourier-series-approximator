@@ -215,8 +215,8 @@ class GUIExtender(Ui_MainWindow):
         
         path = os.getcwd()
         orth = os.path.join(path, "latex/Orthogonality.pdf")
-        fourier = os.path.join(path, "latex/Orthogonality.pdf")
-        parseval = os.path.join(path, "latex/Orthogonality.pdf")
+        fourier = os.path.join(path, "latex/Fourier.pdf")
+        parseval = os.path.join(path, "latex/Parseval.pdf")
         
         self.orth_webView.load(QtCore.QUrl(orth))
         self.orth_webView.show()
